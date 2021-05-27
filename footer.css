@@ -1,0 +1,43 @@
+/* Footer */
+
+.footerInHTML {
+    position: relative;
+    width: 100%;
+    height: 12%;
+    background-color: white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.imgFlexing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.izqui{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+.dere{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.tamañoHome {
+    width: 30%;
+}
+.tamañoBag {
+    width: 24%;
+}
+.tamañoLike {
+    width: 30%;
+}
+.tamañoProfile {
+    width: 30%;
+    margin-left: 5px;
+    margin-bottom: -3px;
+}
