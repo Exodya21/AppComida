@@ -3,17 +3,35 @@
 .footerInHTML {
     position: relative;
     width: 100%;
-    height: 12%;
+    height: 6%;
     background-color: white;
     display: flex;
     justify-content:center;
     align-items:center;
+    flex-direction: column;
 }
+
+.carrito {
+    filter: drop-shadow(10px 10px 5px rgb(182, 179, 179));
+}
+.bolsaCorre {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+}
+.fusionBotonCarro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .imgFlexing {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    width: 100%;
 }
 .izqui{
     position: relative;
