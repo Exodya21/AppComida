@@ -1,7 +1,7 @@
 /* Header */
 header {
     /*background: rgb(255, 255, 255);*/
-    background-color: brown;
+    background-color: white;
     position: relative;
     margin: 0% 0% 10% 0%;
     width: 100%;
@@ -11,53 +11,56 @@ header {
     border-top-right-radius: 10px; 
   }
   .section1 {
-   position: relative;
    display: flex;
    justify-content: space-between;
-   margin-bottom: -20%;
+   
 
   }
   .logo {
-    font-size: 12px ;
+    position: fixed;
+    left: 8px;
+    top: -5px;
+    font-size: 10px ;
     line-height: 14px;
     font-style: bold;
 }
 
   .navboton {
-    width: 50px;
+    position: fixed;
+    right: 0px;
+    width: 45px;
     height: 45px;
     color: #ffffff;
     border-color: white;
-    background-color: white;
-    border-radius: 6px;
-    margin-left: 70%;
-    margin-top: 4%;
+    background-color: transparent;
+    border: none;
     
   }
 
-  .barrasnav {
-   position: relative;
-   display: flex;
-   flex-grow: 100px;
-   top: -120%; 
-
-   
+  
+  .line1, .line2, .line3{
+    width: 22px ;
+    height: 10px;
+    position: relative;
+    display: block;
   }
+
   .section2 {
     position: relative;
     display: flex;
     flex-direction: column;
-    top: 35%;
+    top: 50px;
   }
   
   h1 {
-  
-     font-size: 24px;
-     line-height: 28px;
+    margin-top: 1px;
+    font-size: 24px;
+    line-height: 28px;
   }
   
   .h1descripcion {
       color: grey;
       font-size: 12px;
       line-height: 14px;
+      margin-top: 1px;
   }
